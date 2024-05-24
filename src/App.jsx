@@ -3,11 +3,12 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 
-import Resume from './components/Resume'
+// import Resume from './components/Resume'
 import Project from './components/Project'
 import Footer from './components/Footer'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import './App.css'
+import ResumePage from './components/Resume'
 const App = () => {
   return (
     <BrowserRouter>
@@ -17,7 +18,7 @@ const App = () => {
         <Route path='/' element={<Home/>}/>
         <Route path='/About' element={<About />}/>
         <Route path='/Projects' element={<Project/>}/>
-        <Route path='/Resume' element={<Resume/>}/>
+        <Route path='/Resume' element={<ResumePage/>}/>
         <Route path='/Footer' element={<Footer/>}/>
 
      

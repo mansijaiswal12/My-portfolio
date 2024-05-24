@@ -29,7 +29,7 @@ function TechStack() {
     transition={{duration:1}}>
     <div>
 
-      <h1 className="text-5xl text-center mt-5 font-semibold " style={{color:'wheat'}}>Professional Skillset</h1>
+      <h1 className="text-5xl m-4 text-center mt-5 font-semibold " style={{color:'wheat'}}>Professional Skillset</h1>
       <div className="flex flex-col gap-12 mt-10">
         <ul className="flex gap-[4rem] text-8xl flex-wrap ms-3 justify-center">
           <li className="border-2 py-2 px-8 rounded-md" style={{borderColor:'wheat'}}><DiJavascript1/></li>
@@ -53,7 +53,7 @@ function TechStack() {
         
         <div  className="mb-6">
         <h1 className="text-5xl text-center mt-5 my-7 font-semibold " style={{color:'wheat'}}>Tools</h1>
-          <ul className="flex gap-[4rem] text-8xl  flex-wrap my-3 justify-center"> 
+          <ul className="flex gap-[4rem] text-8xl mb-5 flex-wrap my-3 justify-center"> 
           <li className="border-2 py-2 px-8 rounded-md"style={{borderColor:'wheat'}}><TbBrandVscode/></li>
           <li className="border-2 py-2 px-8 rounded-md"style={{borderColor:'wheat'}}><SiPostman /></li>
           <li className="border-2 py-2 px-8 rounded-md"style={{borderColor:'wheat'}}><SiPycharm /></li>

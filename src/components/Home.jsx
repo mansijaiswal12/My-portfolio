@@ -19,7 +19,7 @@ const Home = () => {
       <div style={{color:'wheat',fontWeight:'bolder',fontFamily:'revert-layer'}}
       // marginLeft:'5rem', paddingTop:'5.6rem', fontSize:'2.5rem'
       className=' ml-[20%] w-1/2 text-[2.5rem]  sm:ml-[5rem] sm:pt-[5.6rem] sm:text-[2.5rem]'>
-        <motion.h1 >Hi there! <span className='animate__animate animate__shakex'>👋🏻</span></motion.h1>
+        <motion.h1 className='mt-4' >Hi there! <span className='animate__animate animate__shakex'>👋🏻</span></motion.h1>
         <motion.h1 style={{color:'var(--text-color)'}}>I am Mansi Jaiswal
       
         </motion.h1>
@@ -32,8 +32,8 @@ const Home = () => {
     </div>
 
     <section className='flex-col py-16 justify-center my-12' style={{fontSize:'2rem'}}> 
-    <h1 className= 'text-center' style={{color:'var(--text-color)'}} >LET ME INTRODUCED MYSELF</h1>
-       <p  className='text-center'style={{color:'white', fontSize:'1.7rem',
+    <h1 className= 'text-center m-4' style={{color:'var(--text-color)'}} >LET ME INTRODUCED MYSELF</h1>
+       <p  className='text-center m-4'style={{color:'white', fontSize:'1.7rem',
      marginTop:'1rem', fontFamily:"cursive"}}>
         
          I am passionate Mern Stack Developer<br/>

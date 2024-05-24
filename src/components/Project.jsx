@@ -6,7 +6,7 @@ import shopify from "../assets/shopify.png";
 import book_store from "../assets/book_store.png"
 
 const Project = () => (
-    <div className='sm:flex justify-center'>
+    <div className='sm:flex mt-3  m-3 justify-center'>
         <Projectprops img={mental_health} title="Mental-Health"
             para="It is a Consulting Web App for teenagers struggling with mental health issues." link="https://psychology-consulting.netlify.app/" />
 

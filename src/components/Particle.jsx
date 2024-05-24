@@ -1,6 +1,7 @@
 import React from "react"; 
 import Particles from "react-tsparticles"; 
 import { loadFull } from "tsparticles"; 
+import { NavLink } from "react-router-dom";
 
 const Particle = () => { 
   const particlesInit = async (main) => { 
@@ -13,18 +14,19 @@ const Particle = () => {
 
   return ( 
     <div> 
+      <NavLink>
       <Particles 
         id="tsparticles" 
         init={particlesInit} 
         loaded={particlesLoaded} 
         options={{ 
           background: { 
-            color: "rgb(10,10,25)", 
+            // color: "rgb(10,10,25)", 
           }, 
           fpsLimit: 60, 
           particles: { 
             shape: { 
-              type: "circle", 
+              type: "circle",  
             }, 
             size: { 
               random: { 
@@ -39,7 +41,7 @@ const Particle = () => {
             number: { 
               density: { 
                 enable: true, 
-                area: 1080, 
+                area: 1500, 
               }, 
               limit: 0, 
               value: 800, 
@@ -66,6 +68,7 @@ const Particle = () => {
           }, 
         }} 
       /> 
+      </NavLink>
     </div> 
   ); 
 }  

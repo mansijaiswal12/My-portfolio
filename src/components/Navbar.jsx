@@ -53,6 +53,7 @@ const navigation = [
                   </div> */}
                   <div className="hidden sm:ml-6 sm:block">
                     <div className="flex space-x-4">
+                      {/* pc laptop */}
                       {navigation.map((item) => (
                         <NavLink
                         key={item.name}
@@ -62,12 +63,12 @@ const navigation = [
                           'rounded-md px-3 py-2 text-lg font-semibold'
                         )}
                         aria-current={item.current ? 'page' : undefined}>
-                          <icon className= 'flex gap-2'>
+                          {/* <icon className= 'flex gap-2'> */}
                             <span>
-                                 <item.icon className='h-6 w-6 text-slate-50'/>
+                                 {/* <item.icon className='h-6 w-6 text-slate-50'/> */}
                             </span>
                             {item.name}
-                          </icon>
+                          {/* </icon> */}
                         </NavLink>
                       ))}
                     </div>
@@ -82,10 +83,11 @@ const navigation = [
             <Disclosure.Panel className="sm:hidden">
               <div className="space-y-1 px-2 pb-3 pt-2">
                 {navigation.map((item) => (
+                   <NavLink to={item.Link}>
                   <Disclosure.Button
                     key={item.name}
                     as="a"
-                    href={item.href}
+                    // href={item.href}
                     className={classNames(
                       'text-slate-50 hover:bg-gray-700' ,'hover:text-white',
                       'block rounded-md px-3 py-2 text-base font-semibold'
@@ -93,8 +95,9 @@ const navigation = [
                     aria-current={item.current ? 'page' : undefined}
                   >
                     {item.name}
-                    {item.icon}
+                    {/* {item.icon} */}
                   </Disclosure.Button>
+                  </NavLink>
                 ))}
               </div>
             </Disclosure.Panel>
