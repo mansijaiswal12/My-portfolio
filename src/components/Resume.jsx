@@ -62,7 +62,7 @@ import Navbar from "./Navbar";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../components/Particle";
-import pdf from "../assets/mansi_jaiswal.pdf";
+import pdf from "../assets/Mansi.Jaiswal_Software_Enginner_ATS_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
